@@ -1,0 +1,24 @@
+
+
+	
+body
+ { background-color: coral;
+ color: white; }
+
+ 
+ 
+ .fun-fact {
+ 	background-color: white;
+ color: black; }
+ 
+ 
+img {
+	width: 300px;
+}
+
+
+p {
+	font-style: arial;
+	font-size:  24px;
+}
+
