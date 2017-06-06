@@ -1,0 +1,40 @@
+
+body {
+	background-color: lightblue;
+	color: green;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+h2{
+	color: navy;
+	text-align: left;
+}
+
+p {
+	color: white;
+	text-align: left;
+}
+
+
+img {
+	position: relative;
+	left:  300px;
+	border: 10px solid;
+	border-style: groove;
+
+	
+}
+
+ul {
+list-style-type: none;}
+
+
+.Stutzy {
+	background-color: black;
+	color: purple;
+
+}
