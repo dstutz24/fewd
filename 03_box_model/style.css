@@ -1,0 +1,62 @@
+
+
+
+h1, h2 {
+	font-family: arial;
+	background-color: lightgray;
+    padding-left: 6px;
+    padding-top:  12px;
+    padding-bottom:  12px;
+}
+code {
+    background-color: lightgray;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.announcement {
+    background-color: indianred;
+    color: white;
+    margin top: 96px;
+    margin margin-bottom: 96px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    padding-right: 48px; 
+}
+/* Apply style to all list items in unordered lists only */
+ul li {
+font-family: "comic sans ms";
+background-color: beige;
+margin-bottom: 16px;
+}
+
+/* Make all list items in ordered list bigger (24px) */
+ol li {
+  font-size: 24px;
+  background-color: beige;
+  margin-bottom: 12px;
+}
+
+
+
+/*make all <code> tags inside announcements black text on white background*/
+.announcement code {
+	color: black;
+	background-color: white;
+	} 
+
+p:last-child {
+	color: blue;
+}
+
+/*box model omg i can't */
+h1 {
+	height: 100px;
+	margin: 20px;
+	padding: 30;
+	background-color}
+
+body { 
+padding-left: 300px;
+padding-right: 300px;
+ }
