@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        
+
+        <title>Form 1</title>
+        
+
+    </head>
+    <body>
+        <h1>hey guys</h1>
+
+        <form>
+           <label for="fav_color_input"> favorite color: </label>
+           <input id="fav_color_input" type="text" name="favorite_color">
+        <label>
+            Favorite Number:
+            <input type="Number"  name="favorite_number">
+        </label>
+        <input type="submit" value="submit the form!">
+        </form>
+    </body>
+    </html>
