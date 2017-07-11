@@ -20,20 +20,42 @@ header {
   padding-bottom: 1rem;
 }
 
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 header h2 a {
   color: yellow;
   text-decoration: none;
 }
 
+header nav {
+  float: right;
+}
+
 header nav a {
   color: white;
   text-decoration: none;
-  display: inline-block;
 }
 
 .primary-navigation {
   font-family: Impact;
   text-transform: uppercase;
+}
+
+.primary-navigation, .secondary-navigation {
+  display: inline;
+  list-style: none;
+
+  padding-left: 0;
+}
+
+.primary-navigation li, .secondary-navigation li {
+  display: inline;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .motto {
@@ -46,6 +68,8 @@ header nav a {
   font-style: italic;
   font-weight: bold;
   font-size: 1.5rem;
+
+  text-align: center;
 }
 
 .strikethrough {
@@ -58,7 +82,7 @@ header nav a {
 }
 
 .hero {
-  background-image: url('../image/coworking.jpg');
+  background-image: url('../images/coworking.jpg');
 
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -67,17 +91,64 @@ header nav a {
 .sign-up-call-to-action {
   background-color: rgba(255, 255, 255, 0.75);
   box-shadow: 0 0 5px black;
-  width: 250px;
-  height: 350px;
-  margin-left: 700px;
-  padding: 10px;
+
+  width: 40%;
+  float: right;
+
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.sign-up-call-to-action button {
+  width: 100%;
+  background-color: gold;
+}
+
+.hero:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .sign-up-call-to-action h1 {
   font-family: Arial;
 }
 
+.info-boxes:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.info-box {
+  width: 33%;
+  float: left;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  box-sizing: border-box;
+}
+
 footer {
   color: white;
   background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .primary-navigation, .secondary-navigation {
+    display: block;
+  }
+
+  header nav {
+    float: none;
+  }
+
+  .sign-up-call-to-action {
+    width: 100%;
+  }
+
+  .info-box {
+    width: 100%;
+  }
 }
